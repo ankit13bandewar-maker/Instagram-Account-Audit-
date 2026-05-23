@@ -189,7 +189,7 @@
 import os
 import time
 import json
-import streamlit as st
+
 import google.generativeai as genai
 
 def generate_local_fallback_brief(post, is_above, median_likes, median_comments):

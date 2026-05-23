@@ -1,7 +1,14 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-import streamlit as st
+# This file previously contained the legacy Streamlit UI. It has been removed as per user request.
+
+def main():
+    print("Legacy Streamlit UI has been removed. No Streamlit functionality is available.")
+
+if __name__ == "__main__":
+    main()
+
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
