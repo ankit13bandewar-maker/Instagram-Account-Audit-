@@ -16,5 +16,6 @@ pandas>=2.2.3
 google-generativeai==0.4.1
 supabase==2.3.7
 apify-client==1.8.1
+apify-shared==1.1.1
 python-dotenv==1.0.1
 httpx>=0.24,<0.26
