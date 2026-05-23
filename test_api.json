@@ -1,0 +1,357 @@
+{
+  "profile_url": "https://www.instagram.com/nasa",
+  "median_likes": 127000.0,
+  "median_comments": 445.0,
+  "average_likes": 129153.33333333333,
+  "average_comments": 443.0,
+  "posts": [
+    {
+      "index": "Post 1",
+      "date": "2026-05-18",
+      "likes": 185200,
+      "comments": 620,
+      "type": "Image",
+      "caption": "A view of the brilliant Aurora Borealis dancing over North America. Taken by astronauts aboard the International Space Station, this stunning green glow represents solar wind colliding with atmospheric oxygen. What parts of our universe inspire you today? #aurora #nasa #space #science",
+      "snippet": "A view of the brilliant Aurora Borealis dancing over North A\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 22.550802939s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 22\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C7H2Bv9u2j5/",
+      "hashtags_used": [
+        "#space",
+        "#nasa",
+        "#science",
+        "#aurora"
+      ]
+    },
+    {
+      "index": "Post 2",
+      "date": "2026-05-17",
+      "likes": 154100,
+      "comments": 540,
+      "type": "Video",
+      "caption": "Staring into the heart of the Orion Nebula. Captured using our James Webb Space Telescope's Near-Infrared Camera (NIRCam), this video reveals hundreds of baby stars nestled in deep dust shells. Science is just beginning to understand star births in this nursery. #jwst #nebula #stars #space #science #nasa",
+      "snippet": "Staring into the heart of the Orion Nebula. Captured using o\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 20.993017504s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 20\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C7Fc8v2u5k8/",
+      "hashtags_used": [
+        "#nebula",
+        "#science",
+        "#nasa",
+        "#jwst",
+        "#space",
+        "#stars"
+      ]
+    },
+    {
+      "index": "Post 8",
+      "date": "2026-05-05",
+      "likes": 142000,
+      "comments": 510,
+      "type": "Carousel",
+      "caption": "Explore the violent stellar winds of active star formation clusters in the Milky Way. Infrared imagery from Webb Space Telescope strips away cosmic dust lanes. #jwst #milkyway #space #science #nasa",
+      "snippet": "Explore the violent stellar winds of active star formation c\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 16.390841678s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 16\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C60b1v3u5r8/",
+      "hashtags_used": [
+        "#science",
+        "#nasa",
+        "#jwst",
+        "#space",
+        "#milkyway"
+      ]
+    },
+    {
+      "index": "Post 3",
+      "date": "2026-05-15",
+      "likes": 139000,
+      "comments": 495,
+      "type": "Carousel",
+      "caption": "Meet the crew of Artemis II. These brave four astronauts are preparing for a historic flight around the Moon, marking the first time humans will visit our celestial neighbor in over 50 years. Swipe to learn more about each explorer, their training journey, and their mission milestones. #artemis #moon #exploration #space #nasa",
+      "snippet": "Meet the crew of Artemis II. These brave four astronauts are\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 20.152479541s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 20\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C7C15v7u8m3/",
+      "hashtags_used": [
+        "#exploration",
+        "#moon",
+        "#artemis",
+        "#nasa",
+        "#space"
+      ]
+    },
+    {
+      "index": "Post 15",
+      "date": "2026-04-21",
+      "likes": 136000,
+      "comments": 480,
+      "type": "Video",
+      "caption": "Take a virtual tour of the ISS Cupola module. Astronauts capture 360-degree views of home while floating 250 miles above oceans. #iss #earth #photography #space #nasa",
+      "snippet": "Take a virtual tour of the ISS Cupola module. Astronauts cap\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 8.843931824s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 8\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6mv1v3u2y5/",
+      "hashtags_used": [
+        "#earth",
+        "#nasa",
+        "#space",
+        "#iss",
+        "#photography"
+      ]
+    },
+    {
+      "index": "Post 7",
+      "date": "2026-05-07",
+      "likes": 131000,
+      "comments": 460,
+      "type": "Video",
+      "caption": "A dynamic look at solar flares erupting from the active region of our sun. This high-fidelity visualization highlights magnetic reconnection processes studied by our solar dynamics observatory. #sun #science #space #nasa",
+      "snippet": "A dynamic look at solar flares erupting from the active regi\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17.064992773s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 17\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C62h1v3u4q7/",
+      "hashtags_used": [
+        "#space",
+        "#sun",
+        "#nasa",
+        "#science"
+      ]
+    },
+    {
+      "index": "Post 9",
+      "date": "2026-05-03",
+      "likes": 129000,
+      "comments": 450,
+      "type": "Image",
+      "caption": "Supermassive black hole at the center of nearby spiral galaxy M87 actively consuming matter. This high-resolution visualization merges infrared and X-ray channels to model thermal jets. #blackhole #galaxy #science #space #nasa",
+      "snippet": "Supermassive black hole at the center of nearby spiral galax\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 15.498223729s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 15\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6yv1v3u6s9/",
+      "hashtags_used": [
+        "#science",
+        "#galaxy",
+        "#nasa",
+        "#space",
+        "#blackhole"
+      ]
+    },
+    {
+      "index": "Post 14",
+      "date": "2026-04-23",
+      "likes": 127000,
+      "comments": 445,
+      "type": "Image",
+      "caption": "Vibrant Hubble legacy visualization tracking supernova remnant gas expansions in the Crab Nebula. These shockwave dynamics enrich interstellar mediums. #hubble #nebula #science #space #nasa",
+      "snippet": "Vibrant Hubble legacy visualization tracking supernova remna\u2026",
+      "is_above_baseline": true,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 9.850660066s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 9\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6ov1v3u1x4/",
+      "hashtags_used": [
+        "#nebula",
+        "#science",
+        "#nasa",
+        "#space",
+        "#hubble"
+      ]
+    },
+    {
+      "index": "Post 4",
+      "date": "2026-05-13",
+      "likes": 124000,
+      "comments": 410,
+      "type": "Image",
+      "caption": "A crescent Earth as seen from lunar orbit during our Artemis I uncrewed flight. The absolute silent isolation of our home planet framed against the deep black abyss of space is a humbling reminder of our fragile existence. Protect our sphere. #artemis #earth #photography #space #nasa",
+      "snippet": "A crescent Earth as seen from lunar orbit during our Artemis\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 19.532807861s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 19\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6903v4u9n4/",
+      "hashtags_used": [
+        "#artemis",
+        "#earth",
+        "#nasa",
+        "#space",
+        "#photography"
+      ]
+    },
+    {
+      "index": "Post 11",
+      "date": "2026-04-29",
+      "likes": 122000,
+      "comments": 420,
+      "type": "Video",
+      "caption": "Watch the breathtaking flight path of a research rocket ascending into the upper atmospheric layers over Alaska. Gathering critical thermosphere ionization datasets. #rocket #science #space #nasa",
+      "snippet": "Watch the breathtaking flight path of a research rocket asce\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.244815038s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6uv1v3u8u1/",
+      "hashtags_used": [
+        "#space",
+        "#science",
+        "#nasa",
+        "#rocket"
+      ]
+    },
+    {
+      "index": "Post 5",
+      "date": "2026-05-11",
+      "likes": 118000,
+      "comments": 390,
+      "type": "Image",
+      "caption": "Mars Curiosity rover captures ancient clay-rich layers inside Gale Crater. These mineral patterns prove liquid water persisted on Mars for millions of years, potentially creating habitable lake environments in Mars' warm ancient past. #mars #curiosity #rover #science #space #nasa",
+      "snippet": "Mars Curiosity rover captures ancient clay-rich layers insid\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 18.925212899s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 18\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C67X2v5u1o5/",
+      "hashtags_used": [
+        "#science",
+        "#rover",
+        "#nasa",
+        "#space",
+        "#mars",
+        "#curiosity"
+      ]
+    },
+    {
+      "index": "Post 13",
+      "date": "2026-04-25",
+      "likes": 115000,
+      "comments": 395,
+      "type": "Carousel",
+      "caption": "Stunning lunar eclipse sequences captured across multiple observatory stations in South America. Swipe to see totality color shifts under shadows. #eclipse #moon #science #space #nasa",
+      "snippet": "Stunning lunar eclipse sequences captured across multiple ob\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 11.757672754s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 11\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6qv1v3u0w3/",
+      "hashtags_used": [
+        "#science",
+        "#moon",
+        "#nasa",
+        "#space",
+        "#eclipse"
+      ]
+    },
+    {
+      "index": "Post 6",
+      "date": "2026-05-09",
+      "likes": 112000,
+      "comments": 380,
+      "type": "Image",
+      "caption": "The rings of Saturn glowing in infrared light. This spectacular view reveals the heat structures hidden in the gas giant's complex cloud belts and icy particles. Captured during Saturn's late northern summer. #saturn #space #science #nasa",
+      "snippet": "The rings of Saturn glowing in infrared light. This spectacu\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 17.928110466s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 17\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C64v1v3u2p6/",
+      "hashtags_used": [
+        "#saturn",
+        "#space",
+        "#science",
+        "#nasa"
+      ]
+    },
+    {
+      "index": "Post 12",
+      "date": "2026-04-27",
+      "likes": 105000,
+      "comments": 340,
+      "type": "Image",
+      "caption": "Deep field observation isolating high-redshift early galaxies in the infant universe. These cosmic artifacts challenge traditional galactic formation timelines. #jwst #galaxy #science #space #nasa",
+      "snippet": "Deep field observation isolating high-redshift early galaxie\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 12.672231488s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 12\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6sv1v3u9v2/",
+      "hashtags_used": [
+        "#science",
+        "#galaxy",
+        "#nasa",
+        "#jwst",
+        "#space"
+      ]
+    },
+    {
+      "index": "Post 10",
+      "date": "2026-05-01",
+      "likes": 98000,
+      "comments": 310,
+      "type": "Image",
+      "caption": "Pre-launch final assembly checks of the Europa Clipper spacecraft at Kennedy Space Center. Clipper will investigate Europa's subterranean ocean under icy crusts. #europaclipper #europa #science #space #nasa",
+      "snippet": "Pre-launch final assembly checks of the Europa Clipper space\u2026",
+      "is_above_baseline": false,
+      "brief": "Error compiling tracking card data (Primary Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 14.835634262s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 14\n}\n]): 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.",
+      "post_url": "https://www.instagram.com/p/C6wv1v3u7t0/",
+      "hashtags_used": [
+        "#europaclipper",
+        "#science",
+        "#nasa",
+        "#europa",
+        "#space"
+      ]
+    }
+  ],
+  "hashtags_analysis": {
+    "tags": [
+      {
+        "tag": "#nasa",
+        "count": 15,
+        "avg_likes": 129153,
+        "avg_comments": 443
+      },
+      {
+        "tag": "#space",
+        "count": 15,
+        "avg_likes": 129153,
+        "avg_comments": 443
+      },
+      {
+        "tag": "#science",
+        "count": 12,
+        "avg_likes": 128191,
+        "avg_comments": 438
+      },
+      {
+        "tag": "#jwst",
+        "count": 3,
+        "avg_likes": 133700,
+        "avg_comments": 463
+      },
+      {
+        "tag": "#nebula",
+        "count": 2,
+        "avg_likes": 140550,
+        "avg_comments": 492
+      },
+      {
+        "tag": "#artemis",
+        "count": 2,
+        "avg_likes": 131500,
+        "avg_comments": 452
+      },
+      {
+        "tag": "#moon",
+        "count": 2,
+        "avg_likes": 127000,
+        "avg_comments": 445
+      },
+      {
+        "tag": "#photography",
+        "count": 2,
+        "avg_likes": 130000,
+        "avg_comments": 445
+      },
+      {
+        "tag": "#earth",
+        "count": 2,
+        "avg_likes": 130000,
+        "avg_comments": 445
+      },
+      {
+        "tag": "#galaxy",
+        "count": 2,
+        "avg_likes": 117000,
+        "avg_comments": 395
+      }
+    ],
+    "ai_assessment": "Error executing hashtag audit engine: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 7.677439988s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.5-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 20\n}\n, retry_delay {\n  seconds: 7\n}\n]"
+  }
+}

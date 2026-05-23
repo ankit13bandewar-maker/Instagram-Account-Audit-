@@ -1,0 +1,10 @@
+streamlit
+apify-client
+requests
+plotly
+python-dotenv
+google-genai
+pandas
+fastapi
+uvicorn
+plotly>=5.0.0
