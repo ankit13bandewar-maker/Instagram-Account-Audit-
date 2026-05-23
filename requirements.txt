@@ -8,6 +8,7 @@
 # fastapi
 # uvicorn
 # plotly>=5.0.0
+apify-client
 fastapi==0.110.0
 uvicorn==0.28.0
 pandas>=2.2.3
