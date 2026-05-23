@@ -15,7 +15,7 @@ export async function GET(request: Request) {
   }
 
   try {
-    const backendUrl = process.env.FASTAPI_URL || 'http://127.0.0.1:8000';
+        const backendUrl = process.env.FASTAPI_URL || 'https://instagram-account-audit-production.up.railway.app';
     console.log('Proxying to FastAPI URL:', backendUrl);
     // Perform a quick health check before making the main request
     try {
