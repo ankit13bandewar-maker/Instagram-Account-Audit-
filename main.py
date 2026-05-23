@@ -27,6 +27,21 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/")
+def root():
+    """Root endpoint - API is live and ready."""
+    return {
+        "status": "ok",
+        "message": "Instagram Account Audit API is running",
+        "version": "1.0.0",
+        "endpoints": {
+            "health": "/health",
+            "dashboard_intelligence": "/api/dashboard-intelligence?profile_url=https://www.instagram.com/nasa",
+            "hashtag_intelligence": "/api/hashtag-intelligence?profile_url=https://www.instagram.com/nasa",
+            "dynamic_hashtag_analytics": "/api/dynamic-hashtag-analytics?profile_url=https://www.instagram.com/nasa"
+        }
+    }
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
