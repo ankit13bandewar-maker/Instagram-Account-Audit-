@@ -2,6 +2,9 @@
   "name": "premium-dashboard",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "next dev",
     "api": "uvicorn main:app --reload --port 8000 --host 0.0.0.0 --app-dir ..",
@@ -10,9 +13,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^16.2.6",
+    "@next/swc": "^16.2.6",
     "lightningcss": "^1.32.0",
-    "lightningcss-win32-x64-msvc": "^1.32.0",
+
     "lucide-react": "^1.16.0",
     "next": "16.2.6",
     "react": "19.2.4",

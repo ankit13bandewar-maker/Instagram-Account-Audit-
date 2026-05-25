@@ -190,7 +190,11 @@ import os
 import time
 import json
 
-import google.generativeai as genai
+try:
+    import google.generativeai as genai
+except Exception as import_err:
+    print(f"WARNING: google.generativeai import failed: {import_err}. Running in fallback/mock mode.")
+    genai = None
 
 def generate_local_fallback_brief(post, is_above, median_likes, median_comments):
     likes = post.get("likes", 0)
@@ -386,8 +390,8 @@ def run_batch_post_audits(posts, median_likes, median_comments):
     gemini_key = os.getenv("GEMINI_API_KEY")
     
     # 1. CASCADE IMMEDIATELY TO LOCAL DYNAMIC GENERATOR IF NO KEY IS CONFIGURED
-    if not gemini_key:
-        print("DEBUG: Missing GEMINI_API_KEY. Using dynamic local growth briefs.")
+    if not genai or not gemini_key:
+        print("DEBUG: Missing GEMINI_API_KEY or genai library. Using dynamic local growth briefs.")
         return {p["index"]: generate_local_fallback_brief(p, p["likes"] >= median_likes, median_likes, median_comments) for p in posts}
         
     genai.configure(api_key=gemini_key)
@@ -490,8 +494,8 @@ def run_senior_audit(raw_posts):
     """
     gemini_key = os.getenv("GEMINI_API_KEY")
     
-    if not gemini_key:
-        print("DEBUG: Missing GEMINI_API_KEY inside configurations. Using local senior audit fallback.")
+    if not genai or not gemini_key:
+        print("DEBUG: Missing GEMINI_API_KEY or genai library inside configurations. Using local senior audit fallback.")
         return generate_local_senior_audit_fallback(raw_posts)
         
     genai.configure(api_key=gemini_key)
@@ -551,8 +555,7 @@ def run_single_post_audit(post_data, is_above_baseline, median_likes, median_com
     """
     Audits an individual post using Phase 2 generative AI auditing rules.
     """
-    gemini_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_key:
+    if not genai or not gemini_key:
         return generate_local_fallback_brief(post_data, is_above_baseline, median_likes, median_comments)
         
     genai.configure(api_key=gemini_key)
@@ -638,8 +641,7 @@ def run_hashtag_audit(hashtag_data, overall_median_likes):
     Analyzes the user's hashtag engagement metrics and patterns, 
     generating a strategic recommendation card through Gemini.
     """
-    gemini_key = os.getenv("GEMINI_API_KEY")
-    if not gemini_key:
+    if not genai or not gemini_key:
         return generate_local_hashtag_audit_fallback(hashtag_data, overall_median_likes)
         
     genai.configure(api_key=gemini_key)

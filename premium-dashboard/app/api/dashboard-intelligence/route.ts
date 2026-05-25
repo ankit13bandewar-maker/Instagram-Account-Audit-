@@ -1,11 +1,8 @@
 import { NextResponse } from 'next/server';
 
 // Proxy handler for the FastAPI dashboard‑intelligence endpoint.
-// The frontend calls `/api/dashboard-intelligence?profile_url=...` which
-// forwards the request to the FastAPI server running on localhost:8000.
-// This keeps the client side free of hard‑coded host/port values and
-// avoids CORS issues.
-
+// The frontend calls `/api/dashboard-intelligence?profile_url=...` which forwards the request
+// to the FastAPI server. In development we fall back to a local FastAPI instance.
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const profileUrl = url.searchParams.get('profile_url');
@@ -14,30 +11,23 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Missing profile_url query parameter' }, { status: 400 });
   }
 
-  try {
-        const backendUrl = process.env.FASTAPI_URL || 'https://instagram-account-audit-production.up.railway.app';
-    console.log('Proxying to FastAPI URL:', backendUrl);
-    // Perform a quick health check before making the main request
-    try {
-      const healthResp = await fetch(`${backendUrl}/health`, { method: 'GET' });
-      if (!healthResp.ok) {
-        throw new Error('Health check failed');
-      }
-    } catch (healthErr) {
-      console.error('FastAPI health check failed:', healthErr);
-      return NextResponse.json({ error: 'FastAPI backend is unreachable (health check failed)' }, { status: 502 });
-    }
-    const backendResponse = await fetch(
-      `${backendUrl}/api/dashboard-intelligence?profile_url=${encodeURIComponent(profileUrl)}`
-    );
-    console.log('FastAPI responded with status', backendResponse.status);
+  const backendUrl = process.env.FASTAPI_URL || (process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:8000' : 'https://instagram-account-audit-production.up.railway.app');
+  console.log('Proxying to FastAPI URL:', backendUrl);
 
-    const data = await backendResponse.json();
-    // Preserve the original status code (e.g., 200, 404, 500)
-    return NextResponse.json(data, { status: backendResponse.status });
-  } catch (err) {
-    console.error('Error proxying to FastAPI:', err);
-    return NextResponse.json({ error: 'Failed to reach FastAPI backend' }, { status: 502 });
+  try {
+    const resp = await fetch(`${backendUrl}/api/dashboard-intelligence?profile_url=${encodeURIComponent(profileUrl)}`);
+    const status = resp.status;
+    const contentType = resp.headers.get('content-type') || '';
+    let data;
+    if (contentType.includes('application/json')) {
+      data = await resp.json();
+    } else {
+      data = await resp.text();
+    }
+    return NextResponse.json(data, { status });
+  } catch (err: any) {
+    console.error('Error contacting FastAPI:', err);
+    return NextResponse.json({ error: 'FastAPI unreachable', details: err.message }, { status: 502 });
   }
 }
 
