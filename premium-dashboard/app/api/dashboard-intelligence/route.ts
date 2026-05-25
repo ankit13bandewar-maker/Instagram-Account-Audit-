@@ -11,7 +11,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Missing profile_url query parameter' }, { status: 400 });
   }
 
-  let backendUrl = process.env.FASTAPI_URL || (process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:8000' : 'https://instagram-account-audit-production.up.railway.app');
+  let backendUrl = process.env.FASTAPI_URL || 'http://127.0.0.1:8000';
   if (backendUrl && !backendUrl.startsWith('http://') && !backendUrl.startsWith('https://')) {
     backendUrl = `http://${backendUrl}`;
   }
